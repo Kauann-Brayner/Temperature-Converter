@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: rgb(160, 70, 245);
+    color: white;
+}
+
+.container{
+    text-align: center;
+    font-size: 1.6em;
+    margin-top: 40px;
+}
+
+.container #myTemp{
+    border-radius: 10px;
+    padding: 3px 3px;
+    margin: 13px;
+    text-align: center;
+    font-size: 0.8em;
+    border-color: rgb(153, 44, 255);
+    border-style: double;
+
+}
+.container #myTemp:focus {
+    outline-color: rgb(126, 0, 243);
+}
+.checkboxes table{
+    margin: 0 auto;
+}
+
+.checkboxes #mySubmit {
+    background-color: rgb(171, 84, 253);
+    color: white;
+    border-radius: 8px;
+    font-size: 0.8em;
+    padding: 1px 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.checkboxes #mySubmit:hover{
+    background-color: rgb(160, 67, 247);
+    cursor: pointer;
+}
+table td{
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 5px;
+}

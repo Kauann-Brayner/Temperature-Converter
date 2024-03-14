@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Temperature Converter</h1>
+    </header>
+    <div class="container">
+        <div class="converter">
+            <label for="myTemp">Enter a temperature value:</label> <br>
+            <input type="number" id="myTemp">
+            <div class="checkboxes">
+                <table>
+                    <tr>
+                        <td><input type="radio" name="unityTemp" id="cF"></td>
+                        <td><label>Celsius → Fahrenheit</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="unityTemp" id="cK"></td>
+                        <td><label>Celsius → Kelvin</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="unityTemp" id="kC"></td>
+                        <td><label>Kelvin → Celsius</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="unityTemp" id="kF"></td>
+                        <td><label>Kelvin → Fahrenheit</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="unityTemp" id="fC"></td>
+                        <td><label>Fahrenheit → Celsius</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="unityTemp" id="fK"></td>
+                        <td><label>Fahrenheit → Kelvin</label></td>
+                    </tr>
+                </table>
+                <button type="submit" id="mySubmit">Convert</button>
+            </div>
+                <h2 id="result"></h2>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
